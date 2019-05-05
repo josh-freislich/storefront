@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartMenu /> renders correctly when default closed state 1`] = `
+<div
+  className="cart-menu  "
+>
+  <div
+    className="empty-menu-list"
+  >
+    <div
+      className="empty"
+    >
+      Your cart is empty
+    </div>
+    <div
+      className="ideas"
+    >
+      Looking for ideas?
+    </div>
+    <Link
+      to="/"
+    >
+      <button
+        className="secondary"
+      >
+        See trending items
+      </button>
+    </Link>
+  </div>
+  <div
+    className="menu-list"
+  />
+  <div
+    className="cart-menu-total"
+  >
+    <span
+      className="cart-menu-total-description"
+    >
+      TOTAL
+    </span>
+    <span
+      className="cart-menu-total-amount"
+    >
+      $
+      0.00
+    </span>
+  </div>
+  <div
+    className="cart-menu-buttons"
+  >
+    <Link
+      to="/cart"
+    >
+      <button
+        className="view-cart"
+      >
+        VIEW CART
+      </button>
+    </Link>
+    <button
+      className="checkout"
+    >
+      CHECKOUT
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<CartMenu /> renders correctly when has products 1`] = `
+<div
+  className="cart-menu  open"
+>
+  <div
+    className="empty-menu-list"
+  >
+    <div
+      className="empty"
+    >
+      Your cart is empty
+    </div>
+    <div
+      className="ideas"
+    >
+      Looking for ideas?
+    </div>
+    <Link
+      to="/"
+    >
+      <button
+        className="secondary"
+      >
+        See trending items
+      </button>
+    </Link>
+  </div>
+  <div
+    className="menu-list"
+  >
+    <ProductItem
+      count={2}
+      key="Blue Stripe Stoneware Plate"
+      product={
+        Object {
+          "brand": "Kiriko",
+          "color": "",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+          "image": "blue-stripe-stoneware-plate.jpg",
+          "price": 40,
+          "title": "Blue Stripe Stoneware Plate",
+        }
+      }
+      rightChildren={
+        <button
+          className="remove-item"
+          onClick={[Function]}
+        >
+          x
+        </button>
+      }
+    />
+    <ProductItem
+      count={1}
+      key="Heme"
+      product={
+        Object {
+          "brand": "Dust & Form",
+          "color": "",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget arcu. Curabitur ac pharetra nisl, sit amet mattis dolor.",
+          "image": "heme.jpg",
+          "price": 52,
+          "title": "Heme",
+        }
+      }
+      rightChildren={
+        <button
+          className="remove-item"
+          onClick={[Function]}
+        >
+          x
+        </button>
+      }
+    />
+  </div>
+  <div
+    className="cart-menu-total"
+  >
+    <span
+      className="cart-menu-total-description"
+    >
+      TOTAL
+    </span>
+    <span
+      className="cart-menu-total-amount"
+    >
+      $
+      132.00
+    </span>
+  </div>
+  <div
+    className="cart-menu-buttons"
+  >
+    <Link
+      to="/cart"
+    >
+      <button
+        className="view-cart"
+      >
+        VIEW CART
+      </button>
+    </Link>
+    <button
+      className="checkout"
+    >
+      CHECKOUT
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<CartMenu /> renders correctly when open state 1`] = `
+<div
+  className="cart-menu cart-empty open"
+>
+  <div
+    className="empty-menu-list"
+  >
+    <div
+      className="empty"
+    >
+      Your cart is empty
+    </div>
+    <div
+      className="ideas"
+    >
+      Looking for ideas?
+    </div>
+    <Link
+      to="/"
+    >
+      <button
+        className="secondary"
+      >
+        See trending items
+      </button>
+    </Link>
+  </div>
+  <div
+    className="menu-list"
+  />
+  <div
+    className="cart-menu-total"
+  >
+    <span
+      className="cart-menu-total-description"
+    >
+      TOTAL
+    </span>
+    <span
+      className="cart-menu-total-amount"
+    >
+      $
+      0.00
+    </span>
+  </div>
+  <div
+    className="cart-menu-buttons"
+  >
+    <Link
+      to="/cart"
+    >
+      <button
+        className="view-cart"
+      >
+        VIEW CART
+      </button>
+    </Link>
+    <button
+      className="checkout"
+    >
+      CHECKOUT
+    </button>
+  </div>
+</div>
+`;
