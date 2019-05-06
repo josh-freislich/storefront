@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import {connect}  from 'react-redux';
-import * as ACTIONS from '../store/actions/actions';
+import * as ACTIONS from '../../store/actions/actions';
 import { Link } from 'react-router-dom';
 import CartMenu from '../cart/CartMenu';
-import './Header.css';
 
 const Header = (props) => {
   const [open, setOpen] = useState(false);

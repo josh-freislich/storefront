@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import {sumMoney, formatMoney} from '../utils'
+import {sumMoney, formatMoney} from '../../utils'
 import ProductItem from '../product/ProductItem'
-import './CartMenu.css';
 
 class CartMenu extends Component {
   render() {

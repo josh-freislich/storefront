@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import {connect}  from 'react-redux';
 import { Link } from 'react-router-dom';
-import * as ACTIONS from '../store/actions/actions';
+import * as ACTIONS from '../../store/actions/actions';
 import Header from '../layout/Header';
 import ProductItem from '../product/ProductItem';
-import './Category.css';
 
 class Category extends Component {
 

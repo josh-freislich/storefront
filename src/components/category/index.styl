@@ -1,0 +1,62 @@
+.Category
+  font-family arial
+  display grid
+  grid-template-columns 30% 30% 30%
+  grid-column-gap 48px
+  grid-row-gap 48px
+  margin 60px 150px
+
+
+  .product-item
+    grid-template-columns auto
+
+    .color,
+    .description
+      display none
+
+    .brand
+      margin 20px 0 10px
+      font-size 12px
+
+    .name
+      color $gray-darker
+      text-transform uppercase
+      font-family arial
+      font-size 12px
+      font-weight 100
+
+    .price
+      font-size 12px
+
+    button.add,
+    button.view
+      position absolute
+      top 70px
+      left 50%
+      margin-left -75px
+      background-color $black
+      color $white
+      border 0 none
+      width 150px
+      height 36px
+      opacity 0.8
+      display none
+      cursor pointer
+
+    button.add
+      top 135px
+      background-color $gray-darker
+
+    &:hover .add,
+    &:hover .view
+      display block
+
+@media (max-width $breakpoint-lg)
+  .Category
+    grid-template-columns 45% 45%
+    grid-column-gap 38px
+
+@media (max-width $breakpoint-md)
+  .Category
+    grid-template-columns 100%
+    grid-column-gap 28px

@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import './AddToCart.css';
 
 const AddToCart = props => {
   const [value, setValue] = useState(props.count || 1)

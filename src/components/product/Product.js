@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import {connect}  from 'react-redux';
-import * as ACTIONS from '../store/actions/actions';
+import * as ACTIONS from '../../store/actions/actions';
 import Nav from '../layout/Nav'
 import Breadcrumbs from '../layout/Breadcrumbs'
 import AddToCart from '../cart/AddToCart'
 import ProductItem from './ProductItem'
-import './Product.css';
 
 class Product extends Component {
     constructor(props) {

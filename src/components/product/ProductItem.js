@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {formatMoney} from '../utils'
-import './ProductItem.css';
+import {formatMoney} from '../../utils'
 
 const ProductItem = props => {
   const {count, product: { title, brand, price, description, image, color } = {}} =  props;

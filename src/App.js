@@ -3,9 +3,9 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import rootReducer from './store/reducers'
-import Category from "./category/Category";
-import Cart from "./cart/Cart";
-import Product from "./product/Product";
+import Category from "./components/category/Category";
+import Cart from "./components/cart/Cart";
+import Product from "./components/product/Product";
 import NotFound from "./NotFound";
 const store = createStore(rootReducer)
 

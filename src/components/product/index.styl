@@ -1,0 +1,78 @@
+.Product
+
+  h1,
+  .price
+    font-family Bodoni, serif
+
+  .product-item
+    display grid
+    grid-template-columns auto 400px
+    max-width 1100px
+    margin auto
+
+    > div
+      text-align center
+      padding 0 40px
+
+    .color
+      display none
+
+@media (max-width $breakpoint-md)
+  .Product
+    .product-item
+      grid-template-columns auto
+
+    img
+      margin-bottom 30px
+
+
+.product-item
+  display grid
+  grid-template-columns 120px auto
+  font-family arial, sans-serif
+  position relative
+
+  > div
+    text-align center
+    padding 0 40px
+
+  img
+    width 100%
+    max-width 770px
+
+  .brand
+    color $gray-dark
+    font-family arial
+    font-size 12px
+
+  h1,
+  .price
+    font-family Bodoni, serif
+
+  h1 span
+    font-size 10px
+
+  .price
+    margin-bottom 10px
+    color $gray-dark
+
+  .color
+    margin-bottom 10px
+    color $gray-dark
+    font-size 12px
+
+    > label
+      margin 0 5px 10px 0
+      color $gray-dark
+
+    > span
+      margin-bottom 10px
+      color $gray-darker
+      text-transform uppercase
+
+  .description
+    font-family arial
+    color $gray-dark
+    border-bottom 1px solid $gray-light
+    padding-bottom 30px
+    margin-bottom 30px

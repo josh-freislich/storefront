@@ -1,5 +1,24 @@
 # Storefront Single-Page App
 
+### Instructions
+This assignment requires [Node 6+](https://nodejs.org/en/) and was created using
+[create-react-app](https://github.com/facebook/create-react-app).
+
+Once installed, you should install the dependencies by running
+```
+npm install
+```
+
+To serve the application, run
+```
+npm start
+```
+
+To run the test suite, run
+```
+npm test
+```
+
 ### Assignment
 Using React*, create a single-page app which renders a mock storefront that matches the provided screenshots, using the
 supplied JSON and media files. The `products.json` file should be accessed asynchronously by
@@ -64,22 +83,3 @@ Note: provide instructions on how to run them.
 * The remove buttons should work as expected.
 * The Continue Shopping link should return to the homepage.
 * The Checkout button does not need to do anything.
-
-### Instructions
-This assignment requires [Node 6+](https://nodejs.org/en/) and was created using
-[create-react-app](https://github.com/facebook/create-react-app).
-
-Once installed, you should install the dependencies by running
-```
-npm install
-```
-
-To serve the application, run
-```
-npm start
-```
-
-To run the test suite, run
-```
-npm test
-```

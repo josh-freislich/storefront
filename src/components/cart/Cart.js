@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import {connect}  from 'react-redux';
-import * as ACTIONS from '../store/actions/actions';
-import {sumMoney, formatMoney} from '../utils'
+import * as ACTIONS from '../../store/actions/actions';
+import {sumMoney, formatMoney} from '../../utils'
 import Nav from '../layout/Nav'
 import AddToCart from './AddToCart'
 import ProductItem from '../product/ProductItem'
-import './Cart.css';
 
 class Cart extends Component {
   render() {

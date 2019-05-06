@@ -32,7 +32,7 @@ var tests = [
     description: 'Cart reducer can remove a product',
     inputs: [ ['add', {title:'a'}], ['add', {title:'b'}], ['remove', {title:'a'}] ],
     expected: [ { count: 1, product: {title:'b'} } ]
-  },
+  }
 ];
 
 for (test of tests) {
